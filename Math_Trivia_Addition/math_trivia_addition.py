@@ -21,7 +21,7 @@ def run_game():
                     quest = int(input('{}. {:>4s}\n  +{:>5s}\n{:>5s}'.format(attempts, str(a), str(b), '')))
                 else:
                     quest = int(input('{}. {:>4s}\n  +{:>4s}\n{:>4s}'.format(attempts, str(a), str(b), '')))
-                # Just decorating how the code looks in the terminal
+                # Just decorating how the code will look in the terminal
 
                 if quest == (a + b):
                     print('\nYour Answer Is Correct\n')

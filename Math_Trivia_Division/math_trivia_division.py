@@ -39,6 +39,7 @@ def run_game():
                                                                                             '-----',
                                                                                             str(b),
                                                                                             '')))
+                    # Just decorating how the code will look in the terminal
 
                     if quest == (a / b):
                         print('\nYour Answer Is Correct\n')

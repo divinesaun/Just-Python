@@ -11,6 +11,7 @@ def run_game():
         for attempts in range(1, num_quests + 1):
             a = random.randint(one, two)
             b = random.randint(one, two)
+
             try:
                 if ident == 5:
                     if attempts == 10:
@@ -21,7 +22,7 @@ def run_game():
                     quest = int(input('{}. {:>4s}\n  X{:>5s}\n{:>5s}'.format(attempts, str(a), str(b), '')))
                 else:
                     quest = int(input('{}. {:>4s}\n  X{:>4s}\n{:>4s}'.format(attempts, str(a), str(b), '')))
-                # Just decorating how the code looks in the terminal
+                # Just decorating how the code will look in the terminal
 
                 if quest == (a * b):
                     print('\nYour Answer Is Correct\n')
