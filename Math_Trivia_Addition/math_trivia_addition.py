@@ -14,13 +14,13 @@ def run_game():
             try:
                 if ident == 5:
                     if attempts == 10:
-                        quest = int(input('{}. {:>3s}\n  +{:>4s}\n{:>5s}'.format(attempts, str(a), str(b), '')))
+                        quest = int(input('{}. {:>3d}\n  +{:>4d}\n{:>5s}'.format(attempts, a, b, '')))
                     else:
-                        quest = int(input('{}. {:>4s}\n  +{:>4s}\n{:>5s}'.format(attempts, str(a), str(b), '')))
+                        quest = int(input('{}. {:>4d}\n  +{:>4d}\n{:>5s}'.format(attempts, a, b, '')))
                 elif attempts >= 10:
-                    quest = int(input('{}. {:>4s}\n  +{:>5s}\n{:>5s}'.format(attempts, str(a), str(b), '')))
+                    quest = int(input('{}. {:>4d}\n  +{:>5d}\n{:>5s}'.format(attempts, a, b, '')))
                 else:
-                    quest = int(input('{}. {:>4s}\n  +{:>4s}\n{:>4s}'.format(attempts, str(a), str(b), '')))
+                    quest = int(input('{}. {:>4d}\n  +{:>4d}\n{:>4s}'.format(attempts, a, b, '')))
                 # Just decorating how the code will look in the terminal
 
                 if quest == (a + b):

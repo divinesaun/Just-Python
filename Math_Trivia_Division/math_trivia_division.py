@@ -16,28 +16,28 @@ def run_game():
                 try:
                     if ident == 5:
                         if attempts == 10:
-                            quest = int(input('\n{}. {:>3s}\n{:>8s}\n{:>7s}\n\n= {:>2s}'.format(attempts,
-                                                                                                str(a),
+                            quest = int(input('\n{}. {:>3d}\n{:>8s}\n{:>7d}\n\n= {:>2s}'.format(attempts,
+                                                                                                a,
                                                                                                 '----',
-                                                                                                str(b),
+                                                                                                b,
                                                                                                 '')))
                         else:
-                            quest = int(input('\n{}. {:>4s}\n{:>8s}\n{:>7s}\n\n= {:>2s}'.format(attempts,
-                                                                                                str(a),
+                            quest = int(input('\n{}. {:>4d}\n{:>8s}\n{:>7d}\n\n= {:>2s}'.format(attempts,
+                                                                                                a,
                                                                                                 '----',
-                                                                                                str(b),
+                                                                                                b,
                                                                                                 '')))
                     elif attempts >= 10:
-                        quest = int(input('\n{}. {:>4s}\n{:>8s}\n{:>7s}\n\n= {:>2s}'.format(attempts,
-                                                                                            str(a),
+                        quest = int(input('\n{}. {:>4d}\n{:>8s}\n{:>7d}\n\n= {:>2s}'.format(attempts,
+                                                                                            a,
                                                                                             '----',
-                                                                                            str(b),
+                                                                                            b,
                                                                                             '')))
                     else:
-                        quest = int(input('\n{}. {:>4s}\n{:>8s}\n{:>7s}\n\n= {:>2s}'.format(attempts,
-                                                                                            str(a),
+                        quest = int(input('\n{}. {:>4d}\n{:>8s}\n{:>7d}\n\n= {:>2s}'.format(attempts,
+                                                                                            a,
                                                                                             '-----',
-                                                                                            str(b),
+                                                                                            b,
                                                                                             '')))
                     # Just decorating how the code will look in the terminal
 
