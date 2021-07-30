@@ -1,7 +1,7 @@
 import random
 
 
-def run_game():
+def rock_paper_scissors():
     player = input('Welcome To Rock Paper Scissors Game\n(R) - For Rock, (P) - For Paper, (S) - For Scissors\n\n'
                    'Enter Your Username: ')
 
@@ -62,4 +62,4 @@ def run_game():
           f'  Computer - {computer_score}')
 
 
-run_game()
+rock_paper_scissors()
